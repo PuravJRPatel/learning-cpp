@@ -1,10 +1,13 @@
 #include <iostream>
+using namespace std;
 
-int main() {
-  double x = 10;
-  double y = 5;
-  double z = (x + 10)/(3*y);
-  std::cout << z;
+int main(){
+  int mult = 1;
+
+  for (int  i = 1; i <= 5; i++) {
+    mult = mult * i;
+  }
+
+  cout << mult;
   return 0;
-} 
-
+}
